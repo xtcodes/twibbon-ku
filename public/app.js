@@ -133,6 +133,7 @@ await navigator.share({
 files: [file],
 title: "Twibbon Saya",
 text: "Lihat Twibbon saya!",
+url: "https://ciku.pages.dev/",
 });
 } catch {
 showWarning("Gagal membagikan.");
@@ -160,7 +161,7 @@ if (withWatermark) {
 tempCtx.fillStyle = "white";
 tempCtx.font = "16px Arial";
 tempCtx.textAlign = "right";
-tempCtx.fillText("#MadeByXTCODES", canvas.width - 10, canvas.height - 10);
+tempCtx.fillText("#MadeByCIKUPAGES.DEV", canvas.width - 10, canvas.height - 10);
 }
 return tempCanvas;
 }
