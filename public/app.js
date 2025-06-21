@@ -161,7 +161,7 @@ if (withWatermark) {
 tempCtx.fillStyle = "white";
 tempCtx.font = "16px Arial";
 tempCtx.textAlign = "right";
-tempCtx.fillText("#VERDONK", canvas.width - 10, canvas.height - 10);
+tempCtx.fillText("#VERDONKS", canvas.width - 10, canvas.height - 10);
 }
 return tempCanvas;
 }
