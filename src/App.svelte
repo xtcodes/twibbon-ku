@@ -3,9 +3,31 @@ export let name;
 </script>
 
 <main>
-<h1>Twibbon {name}!</h1>
-<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+<div id="warning">Silakan unggah gambar terlebih dahulu!</div>
+
+<h1>TWIBBON {name}</h1>
+<p>Tunjukkan dukungan Anda kepada Palestina dengan mengubah gambar profil Anda.</p>
+
+<div id="canvasContainer">
+<canvas id="twibbonCanvas" width="500" height="500"></canvas>
+<div id="iconContainer">
+<label id="iconLabel" for="uploadImage"><i class="fa fa-camera"></i></label>
+<input type="file" id="uploadImage" accept="image/*" class="hidden" />
+<input type="file" id="uploadTwibbon" accept="image/png" class="hidden" />
+</div>
+</div>
+
+<div class="controls">
+<button id="downloadBtn" class="hidden">Unduh</button>
+<button id="shareBtn" class="hidden">Bagikan</button>
+</div>
+
+<div id="imgurResult"></div>
 </main>
+
+<footer style="margin-top: 1rem; padding: 1.5rem 1rem; background: #f5f5f5; color: #333; text-align: center; font-size: 0.95rem;">
+<p>Solidaritas untuk Palestina. Dibuat dengan ❤️ oleh <a href="/" target="_blank" style="color: #007BFF; text-decoration: none;">VERDONKS</a>.</p>
+</footer>
 
 <style>
 main {
