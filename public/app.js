@@ -68,7 +68,7 @@ isImageReady = true;
 
 setTimeout(() => {
 iconLabel.setAttribute('for', 'uploadTwibbon');
-iconLabel.textContent = 'â—»';
+iconLabel.textContent = '◻';
 downloadBtn.classList.remove('hidden');
 shareBtn.classList.remove('hidden');
 }, 100);
