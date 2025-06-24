@@ -25,7 +25,7 @@ export let name;
 <div id="imgurResult"></div>
 </main>
 
-<footer style="margin-top: 1rem; padding: 1.5rem 1rem; background: #f5f5f5; color: #333; text-align: center; font-size: 0.95rem;">
+<footer style="margin-top: 0.5rem; padding: 1.5rem 1rem; background: #f5f5f5; color: #333; text-align: center; font-size: 0.95rem;">
 <p>Solidaritas untuk Palestina. Dibuat dengan ❤️ oleh <a href="/" target="_blank" style="color: #007BFF; text-decoration: none;">VERDONKS</a>.</p>
 </footer>
 
